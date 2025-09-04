@@ -42,9 +42,9 @@ https://sanatanstudentssocietyucalgary.ca/
 
 # Updating Website Files
 Run the following commands in order to update files on the website:
-cd website              # Or whichever directory you desire to use
-git add .               # Can specify the folder or file you desire to add
-git commit -m "Update website content"
-git push origin main
-npm run deploy
+1. cd website              # Or whichever directory you desire to use
+2. git add .               # Can specify the folder or file you desire to add
+3. git commit -m "Update website content"
+4. git push origin main
+5. npm run deploy
 
