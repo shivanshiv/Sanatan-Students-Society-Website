@@ -1,0 +1,115 @@
+* {
+  font-family: 'Alice', serif;
+  font-weight: bolder;
+  box-sizing: border-box;
+}
+
+i {
+  text-shadow: 0.025rem 0 0 rgb(117, 31, 10), -0.025rem 0 0 rgb(117, 31, 10) !important;
+  color: rgb(197, 99, 74) !important;
+}
+
+.hiring-h1 h1 {
+  font-size: clamp(1.5rem, 3.5vw, 3rem);
+  text-align: center;
+  text-shadow: 0.025rem 0 0 rgb(117, 31, 10), -0.025rem 0 0 rgb(117, 31, 10);
+  color: rgb(117, 31, 10);
+}
+
+main {
+  margin: 0;
+  font-family: 'Alice', serif;
+  color: #751F0A;
+}
+
+.hiring-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+  padding: clamp(1rem, 3vw, 1.5rem) clamp(5%, 10vw, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hiring-content h2 {
+  font-size: clamp(1rem, 1.8vw, 1.5rem);
+  margin: clamp(0.5%, 1vw, 1%) 0;
+}
+
+.hiring-italic-letter {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: clamp(1.2rem, 1.9vw, 1.8rem);
+  text-shadow: 0.025rem 0 0 rgb(117, 31, 10), -0.025rem 0 0 rgb(117, 31, 10);
+  color: rgb(197, 99, 74);
+}
+
+p {
+  text-align: justify;
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
+}
+
+.hiring-content h4 {
+  margin-top: clamp(1%, 2vw, 2%);
+  font-size: clamp(0.875rem, 1.2vw, 1.1rem);
+}
+
+.hiring-with-decor {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #ffe5a5, #febe5f);
+  overflow: visible;
+  padding-top: clamp(5rem, 10vw, 7.5rem);
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.hiring-decor {
+  top: clamp(5%, 8vw, 10%);
+  max-height: clamp(20%, 30vw, 35%);
+  width: clamp(5%, 7vw, 8%);
+  object-fit: contain;
+  pointer-events: none;
+  opacity: 0.95;
+  z-index: 0;
+}
+
+.hiring-decor-left, .hiring-decor-right {
+  width: clamp(5%, 7vw, 8%);
+  max-height: clamp(20%, 30vw, 35%);
+}
+
+.hiring-decor-left {
+  left: clamp(1%, 1.5vw, 2%);
+}
+
+.hiring-decor-right {
+  right: clamp(1%, 1.5vw, 2%);
+}
+
+.hiring-center-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: clamp(1rem, 2vw, 1.5rem);
+}
+
+.hiring-decor-center {
+  max-width: clamp(5rem, 10vw, 8rem);
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.hiring-page-content {
+  margin-top: 0;
+}
+
+.hiring-logo {
+  height: clamp(6rem, 15vw, 9.375rem);
+  padding: clamp(0.5rem, 1.5vw, 1.25rem);
+}

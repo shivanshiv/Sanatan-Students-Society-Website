@@ -1,0 +1,122 @@
+.volunteering-container {
+  background: linear-gradient(to bottom, #ffe5a5, #febe5f);
+  min-height: 100vh;
+  padding: clamp(1rem, 2vw, 1.5rem) 0;
+  box-sizing: border-box;
+}
+
+.volunteering-content {
+  max-width: clamp(18rem, 90vw, 75rem);
+  margin: 0 auto;
+  padding: 0 clamp(0.5rem, 1vw, 1rem);
+}
+
+.page-title {
+  color: #751F0A;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 0.025rem 0 0 rgb(117, 31, 10), -0.025rem 0 0 rgb(117, 31, 10);
+  font-family: 'Alice', serif;
+  font-size: clamp(1.5rem, 3.5vw, 3rem);
+  padding-bottom: clamp(0.5rem, 1vw, 0.875rem);
+}
+
+.opportunities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(clamp(15rem, 30vw, 20rem), 1fr));
+  gap: clamp(1rem, 2vw, 1.5rem);
+  margin-bottom: clamp(1rem, 2vw, 1.5rem);
+}
+
+.opportunity-card {
+  background: #fff3cb;
+  border-radius: clamp(0.5rem, 1vw, 0.75rem);
+  box-shadow: 0 clamp(0.25rem, 0.5vw, 0.5rem) clamp(0.75rem, 1vw, 1.25rem) rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.opportunity-card:hover {
+  transform: translateY(clamp(-0.25rem, -0.5vw, -0.3125rem));
+  box-shadow: 0 clamp(0.5rem, 1vw, 0.75rem) clamp(1rem, 2vw, 1.875rem) rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background: linear-gradient(45deg, #ff8c42, #ffb700, #ffa366);
+  color: white;
+  padding: clamp(1rem, 2vw, 1.5rem);
+  text-align: center;
+}
+
+.event-title {
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  margin: 0;
+  font-weight: bold;
+}
+
+.card-content {
+  padding: clamp(1rem, 2vw, 1.5rem);
+}
+
+.info-section {
+  margin-bottom: clamp(1rem, 2vw, 1.5rem);
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: clamp(0.5rem, 1vw, 1rem);
+  padding: clamp(0.5rem, 1vw, 0.75rem) 0;
+  border-bottom: 0.0625rem solid #f0f0f0;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.info-label {
+  font-weight: 600;
+  color: #751F0A;
+  min-width: clamp(5rem, 15vw, 7.5rem);
+  flex-shrink: 0;
+  text-align: left;
+}
+
+.info-value {
+  color: #a45d4b;
+  text-align: right;
+  flex-grow: 1;
+  margin-left: clamp(0.5rem, 1vw, 1rem);
+}
+
+.card-footer {
+  text-align: center;
+  padding-top: clamp(0.5rem, 1vw, 1rem);
+  border-top: 0.0625rem solid #f0f0f0;
+}
+
+.volunteer-btn {
+  background: linear-gradient(135deg, #febe5f, #ff9500);
+  color: white;
+  border: none;
+  padding: clamp(0.5rem, 1.5vw, 0.75rem) clamp(1rem, 2vw, 1.5rem);
+  border-radius: clamp(1rem, 2vw, 1.5625rem);
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 clamp(0.125rem, 0.5vw, 0.25rem) clamp(0.5rem, 1vw, 0.75rem) rgba(254, 190, 95, 0.3);
+}
+
+.volunteer-btn:hover {
+  background: linear-gradient(135deg, #ff9500, #e6800e);
+  transform: translateY(clamp(-0.1rem, -0.5vw, -0.125rem));
+  box-shadow: 0 clamp(0.25rem, 0.75vw, 0.375rem) clamp(0.75rem, 1.5vw, 1rem) rgba(254, 190, 95, 0.4);
+}
+
+.volunteer-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 clamp(0.1rem, 0.25vw, 0.125rem) clamp(0.25rem, 0.75vw, 0.5rem) rgba(254, 190, 95, 0.3);
+}

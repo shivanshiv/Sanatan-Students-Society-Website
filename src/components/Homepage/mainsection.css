@@ -1,0 +1,260 @@
+* {
+  font-family: 'Alice', serif;
+  font-weight: bolder;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 0;
+  font-family: 'Alice', serif;
+  color: #751F0A;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #ffe5a5, #febe5f);
+  min-height: 100vh;
+  padding-bottom: clamp(20px, 5vw, 40px);
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 0 clamp(0.5rem, 3vw, 2rem) clamp(0.5rem, 3vw, 2rem);
+  position: relative;
+}
+
+.text-container {
+  margin-top: clamp(2rem, 8vw, 5rem);
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.main-logo {
+  height: clamp(7rem, 16vw, 10rem);
+  padding: clamp(0.3rem, 1vw, 1rem);
+  margin-bottom: clamp(0.5rem, 3vw, 2rem);
+}
+
+.floating-elements {
+  position: absolute;
+  top: clamp(2%, 5vw, 5%);
+  left: 0;
+  width: 100%;
+  height: clamp(70vh, 80vw, 80%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.floating-om {
+  position: absolute;
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  color: rgba(117, 31, 10, 0.1);
+  animation: float 6s ease-in-out infinite;
+}
+
+.floating-om:nth-child(1) {
+  top: clamp(5%, 10vw, 10%);
+  left: clamp(2%, 10vw, 10%);
+  animation-delay: 0s;
+}
+
+.floating-om:nth-child(2) {
+  top: clamp(15%, 20vw, 20%);
+  right: clamp(2%, 10vw, 10%);
+  animation-delay: 2s;
+}
+
+.floating-om:nth-child(3) {
+  bottom: clamp(2%, 5vw, 5%);
+  left: clamp(2%, 10vw, 10%);
+  animation-delay: 4s;
+}
+
+.floating-om:nth-child(4) {
+  bottom: clamp(10%, 15vw, 15%);
+  right: clamp(2%, 10vw, 10%);
+  animation-delay: 1s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(clamp(-10px, -2vw, -20px)) rotate(5deg);
+  }
+  50% {
+    transform: translateY(clamp(-3px, -1vw, -10px)) rotate(-5deg);
+  }
+  75% {
+    transform: translateY(clamp(-5px, -1.5vw, -15px)) rotate(3deg);
+  }
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  text-shadow: 0.025rem 0 0 rgb(117, 31, 10), -0.025rem 0 0 rgb(117, 31, 10);
+  color: rgb(117, 31, 10);
+  position: relative;
+  z-index: 2;
+}
+
+h1 {
+  letter-spacing: clamp(0.05rem, 0.1vw, 0.125rem);
+  font-size: clamp(1.5rem, 5vw, 4rem);
+  margin-bottom: clamp(0.5rem, 3vw, 2rem);
+  line-height: 1.2;
+}
+
+.welcome-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(0.1rem, 0.5vw, 0.5rem);
+}
+
+.welcome-line {
+  display: block;
+  font-size: clamp(1.5rem, 5vw, 4rem);
+  font-weight: bolder;
+  letter-spacing: clamp(0.05rem, 0.1vw, 0.125rem);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.society-name {
+  display: block;
+  font-size: clamp(1.5rem, 5vw, 4rem);
+  font-weight: bolder;
+  letter-spacing: clamp(0.05rem, 0.1vw, 0.125rem);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 2.5rem);
+  margin: clamp(0.3rem, 1.5vw, 0.75rem) 0;
+  line-height: 1.4;
+}
+
+h4 {
+  font-size: clamp(0.8rem, 2vw, 1.8rem);
+  margin-top: clamp(1rem, 5vw, 3.5rem);
+  margin-bottom: clamp(1rem, 5vw, 3.5rem);
+  margin-left: 0;
+  margin-right: 0;
+}
+
+i {
+  text-shadow: 0.025rem 0 0 rgb(117, 31, 10), -0.025rem 0 0 rgb(117, 31, 10) !important;
+  color: rgb(197, 99, 74) !important;
+  min-height: 1.5em;
+  display: inline-block;
+  position: relative;
+}
+
+.highlight-text {
+  color: rgb(197, 99, 74); 
+  
+}
+
+.sparkle {
+  position: absolute;
+  color: rgba(197, 99, 74, 0.6);
+  font-size: clamp(0.75rem, 2vw, 0.875rem); 
+  animation: sparkle 3s ease-in-out infinite;
+  z-index: 3;
+  will-change: transform, opacity; 
+  transform: translate3d(0, 0, 0); 
+}
+
+.sparkle:nth-child(1) {
+  top: 25%;
+  right: 15%;
+  animation-delay: 0.5s;
+}
+
+.sparkle:nth-child(2) {
+  top: 40%;
+  left: 8%;
+  animation-delay: 1s;
+}
+
+.sparkle:nth-child(3) {
+  top: 60%;
+  right: 12%;
+  animation-delay: 1.5s;
+}
+
+.sparkle:nth-child(4) {
+  top: 75%;
+  left: 15%;
+  animation-delay: 2s;
+}
+
+.sparkle:nth-child(5) {
+  top: 35%;
+  right: 8%;
+  animation-delay: 2.5s;
+}
+
+.sparkle:nth-child(6) {
+  top: 80%;
+  right: 20%;
+  animation-delay: 0.3s;
+}
+
+.sparkle:nth-child(7) {
+  top: 20%;
+  left: 25%;
+  animation-delay: 1.8s;
+}
+
+.sparkle:nth-child(8) {
+  top: 55%;
+  left: 5%;
+  animation-delay: 0.8s;
+}
+
+.sparkle:nth-child(9) {
+  top: 70%;
+  right: 5%;
+  animation-delay: 1.3s;
+}
+
+.sparkle:nth-child(10) {
+  top: 45%;
+  left: 20%;
+  animation-delay: 2.2s;
+}
+
+.sparkle:nth-child(11) {
+  top: 85%;
+  left: 8%;
+  animation-delay: 0.7s;
+}
+
+.sparkle:nth-child(12) {
+  top: 15%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(clamp(0.8, 0.2vw, 1.2));
+  }
+}

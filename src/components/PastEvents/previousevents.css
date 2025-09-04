@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+.previous-events-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section {
+  flex: 1;
+  background: linear-gradient(to bottom, #ffe5a5, #febe5f);
+  padding: clamp(0.5rem, 3vw, 2rem) clamp(0.25rem, 2vw, 1rem);
+}
+
+.events-content {
+  max-width: clamp(30rem, 90vw, 75rem);
+  margin: 0 auto;
+}
+
+.page-title {
+  text-align: center;
+  font-size: clamp(1.2rem, 4vw, 3.5rem);
+  font-weight: bold;
+  color: #751F0A;
+  margin-top: clamp(2.5rem, 6vw, 5rem); 
+  margin-bottom: clamp(0.5rem, 2vw, 2rem);
+}
+
+.event-card {
+  background: #fff3cb;
+  border-radius: clamp(0.3rem, 1vw, 0.9375rem);
+  padding: clamp(0.5rem, 2vw, 2rem);
+  margin-bottom: clamp(1rem, 3vw, 2.5rem);
+  box-shadow: 0 clamp(0.125rem, 0.5vw, 0.5rem) clamp(0.5rem, 1.5vw, 1.25rem) rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(clamp(0.2rem, 0.5vw, 0.625rem));
+  border: clamp(0.015625rem, 0.0625vw, 0.0625rem) solid rgba(255, 255, 255, 0.2);
+}
+
+.event-name {
+  font-size: clamp(1rem, 2.5vw, 1.8rem);
+  font-weight: bold;
+  color: #751F0A;
+  margin-bottom: clamp(0.3rem, 1vw, 1rem);
+  text-align: center;
+}
+
+.event-caption {
+  font-size: clamp(0.7rem, 1.8vw, 1.1rem);
+  line-height: 1.6;
+  color: #751F0A;
+  text-align: center;
+  margin-bottom: clamp(0.5rem, 2vw, 2rem);
+  max-width: clamp(20rem, 80vw, 50rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.images-grid {
+  display: grid;
+  gap: clamp(0.3rem, 1vw, 1rem);
+  margin: 0 auto;
+}
+
+.images-grid.four-images {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  max-width: clamp(15rem, 90vw, 37.5rem);
+}
+
+.images-grid.two-by-two {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  max-width: clamp(12rem, 70vw, 30rem);
+}
+
+.images-grid.one-by-two {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  max-width: clamp(12rem, 70vw, 30rem);
+}
+
+.image-cell {
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: clamp(0.2rem, 0.5vw, 0.625rem);
+  box-shadow: 0 clamp(0.0625rem, 0.25vw, 0.25rem) clamp(0.15rem, 0.5vw, 0.625rem) rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-cell:hover {
+  transform: translateY(clamp(-0.1rem, -0.5vw, -0.3125rem));
+  box-shadow: 0 clamp(0.15rem, 0.5vw, 0.5rem) clamp(0.5rem, 1.5vw, 1.25rem) rgba(0, 0, 0, 0.25);
+}
+
+.image-cell img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-cell:hover img {
+  transform: scale(1.05);
+}

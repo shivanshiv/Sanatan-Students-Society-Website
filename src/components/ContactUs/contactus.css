@@ -1,0 +1,176 @@
+* {
+  font-family: 'Alice', serif;
+  font-weight: bolder;
+  box-sizing: border-box;
+}
+
+i {
+  text-shadow: 0.025rem 0 0 rgb(117, 31, 10), -0.025rem 0 0 rgb(117, 31, 10) !important;
+  color: rgb(197, 99, 74) !important;
+}
+
+h4 {
+  color: rgb(197, 99, 74);
+}
+
+main {
+  margin: 0;
+  font-family: 'Alice', serif;
+  color: #751F0A;
+}
+
+h1 {
+  letter-spacing: clamp(0.0625rem, 0.1vw, 0.125rem);
+}
+
+.main-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  padding: clamp(1rem, 3vw, 2rem) clamp(5%, 10vw, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: clamp(40rem, 80vw, 50rem);
+  margin: 0 auto;
+}
+
+.main-content h1 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  margin-bottom: clamp(1rem, 2vw, 2rem);
+  letter-spacing: clamp(0.0625rem, 0.1vw, 0.125rem);
+  text-align: center;
+}
+
+.main-content p {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  text-align: center;
+  margin-bottom: clamp(1.5rem, 3vw, 3rem);
+  line-height: 1.6;
+  max-width: clamp(30rem, 75vw, 37.5rem);
+}
+
+.contact-us-decor {
+  position: relative;
+  background: linear-gradient(135deg, #ffe5a5 0%, #ffd580 50%, #febe5f 100%);
+  min-height: 100vh;
+  padding-top: clamp(3rem, 8vw, 6.25rem);
+  font-family: 'Alice', serif;
+  color: #751F0A;
+  width: 100%;
+  overflow-x: hidden;
+  padding-bottom: clamp(3rem, 8vw, 6.25rem);
+}
+
+.logo-container {
+  margin-bottom: clamp(1rem, 2vw, 2rem);
+}
+
+.logo-container img {
+  height: clamp(6rem, 15vw, 9.375rem);
+  padding: clamp(0.5rem, 1.5vw, 1.25rem);
+}
+
+.contact-links-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(clamp(14rem, 25vw, 17.5rem), 1fr));
+  gap: clamp(1rem, 2vw, 2rem);
+  width: 100%;
+  max-width: clamp(30rem, 85vw, 43.75rem);
+  margin-top: clamp(1rem, 2vw, 2rem);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: clamp(0.75rem, 1.5vw, 1.25rem);
+  padding: clamp(1rem, 2vw, 1.5rem) clamp(1.5rem, 3vw, 2rem);
+  background: rgba(252, 246, 238, 0.9);
+  border-radius: clamp(0.5rem, 1vw, 0.9375rem);
+  box-shadow: 0 clamp(0.25rem, 0.5vw, 0.5rem) clamp(1rem, 2vw, 1.5625rem) rgba(117, 31, 10, 0.15);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: clamp(0.0625rem, 0.125vw, 0.125rem) solid transparent;
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  text-decoration: none;
+  color: #751F0A;
+  font-weight: bold;
+}
+
+.contact-item:hover {
+  transform: translateY(clamp(-0.25rem, -0.5vw, -0.3125rem));
+  box-shadow: 0 clamp(0.5rem, 1vw, 0.75rem) clamp(1.5rem, 3vw, 2.1875rem) rgba(117, 31, 10, 0.25);
+  border-color: rgba(197, 99, 74, 0.3);
+  background: rgb(255, 253, 243);
+}
+
+.contact-item img {
+  height: clamp(2rem, 5vw, 3.125rem);
+  width: clamp(2rem, 5vw, 3.125rem);
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 clamp(0.0625rem, 0.125vw, 0.125rem) clamp(0.125rem, 0.25vw, 0.25rem) rgba(0, 0, 0, 0.1));
+}
+
+.contact-item:hover img {
+  transform: scale(1.1);
+}
+
+.contact-item span {
+  font-size: inherit;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.contact-item.gmail:hover {
+  border-color: #EA4335;
+}
+
+.contact-item.gmail:hover span {
+  color: #EA4335;
+}
+
+.contact-item.instagram:hover {
+  border-color: #be26cc;
+}
+
+.contact-item.instagram:hover span {
+  color: #be26cc;
+}
+
+.contact-item.facebook:hover {
+  border-color: #1877F2;
+}
+
+.contact-item.facebook:hover span {
+  color: #1877F2;
+}
+
+.contact-item.linktree:hover {
+  border-color: #39E09B;
+}
+
+.contact-item.linktree:hover span {
+  color: #39E09B;
+}
+
+.main-decor {
+  position: absolute;
+  top: 0;
+  max-height: clamp(50vh, 70vw, 70%);
+  width: auto;
+  object-fit: contain;
+  pointer-events: none;
+  opacity: 0.95;
+  z-index: 0;
+}
+
+.decor-left {
+  left: 0;
+}
+
+.decor-right {
+  right: 0;
+}

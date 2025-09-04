@@ -1,0 +1,131 @@
+* {
+  font-family: 'Alice', serif;
+  font-weight: bolder;
+  box-sizing: border-box;
+}
+
+i {
+  text-shadow: 0.025rem 0 0 rgb(117, 31, 10), -0.025rem 0 0 rgb(117, 31, 10) !important;
+  color: rgb(197, 99, 74) !important;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  text-shadow: 0.025rem 0 0 rgb(117, 31, 10), -0.025rem 0 0 rgb(117, 31, 10);
+  color: rgb(117, 31, 10);
+}
+
+main {
+  margin: 0;
+  font-family: 'Alice', serif;
+  color: #751F0A;
+}
+
+h1 {
+  letter-spacing: 0.125rem;
+}
+
+p {
+  text-align: justify;
+}
+
+.main-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+  padding: clamp(1rem, 2vw, 2rem) clamp(0.5%, 1vw, 1%) !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main-content h1 {
+  font-size: clamp(1.5rem, 2.8vw, 3.5rem);
+  margin-bottom: clamp(1%, 2vw, 2%);
+  letter-spacing: 0.125rem;
+}
+
+.main-content h2 {
+  font-size: clamp(1rem, 2vw, 2.5rem);
+  margin: clamp(0.5%, 1vw, 1%) 0;
+}
+
+.italic-letter {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: clamp(1rem, 2.1vw, 2.5rem);
+  text-shadow: 0.025rem 0 0 rgb(117, 31, 10), -0.025rem 0 0 rgb(117, 31, 10);
+  color: rgb(197, 99, 74);
+}
+
+.main-content h4 {
+  margin-top: clamp(1%, 2vw, 2%);
+  font-size: clamp(0.8rem, 1.3vw, 1.5rem);
+}
+
+.main-with-decor {
+  min-height: 130vh;
+  background: linear-gradient(to bottom, #ffe5a5, #febe5f);
+  overflow: visible;
+  padding-top: clamp(3rem, 7.5vw, 7.5rem);
+  padding-bottom: clamp(3rem, 7.5vw, 7.5rem);
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.main-decor {
+  top: clamp(5%, 10vw, 10%);
+  max-height: clamp(20%, 40vw, 40%);
+  width: clamp(4%, 8vw, 8%);
+  object-fit: contain;
+  pointer-events: none;
+  opacity: 0.95;
+  z-index: 0;
+}
+
+.about-paragraph {
+  text-align: justify;
+  margin-bottom: clamp(0.5rem, 1.5vw, 1.5rem);
+  line-height: 1.6;
+}
+
+.decor-left,
+.decor-right {
+  width: clamp(4%, 8vw, 8%);
+  max-height: clamp(15%, 35vw, 35%);
+}
+
+.decor-left {
+  left: clamp(1%, 2vw, 2%);
+}
+
+.decor-right {
+  right: clamp(1%, 2vw, 2%);
+}
+
+.center-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: clamp(0.5rem, 1.5vw, 1.5rem);
+}
+
+.decor-center {
+  max-width: clamp(4rem, 8vw, 8rem);
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.homepage-content {
+  margin-top: 0;
+}
+
+.logo-style {
+  height: clamp(6rem, 15vw, 9.375rem);
+  padding: clamp(0.5rem, 1.5vw, 1.25rem);
+}
