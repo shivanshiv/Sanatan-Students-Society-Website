@@ -24,7 +24,7 @@ website/
 │   └── index.js          # Entry point
 ├── package.json          # Project dependencies & scripts
 ├── README.md             # Project documentation
-└── .gitignore            # Ignored files/folders
+└── .gitignore            # Ignored files/folders ```
 # Setup and Development
 1. Clone the repo using the following commands:
     git clone https://github.com/shivanshiv/Sanatan-Students-Society-Website.git
