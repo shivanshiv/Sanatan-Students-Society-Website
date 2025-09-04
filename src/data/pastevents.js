@@ -6,14 +6,14 @@ const pastevents = [
     image1: "/sss_images/past_events/Kirtan1.jpg",
     image2: "/sss_images/past_events/Kirtan2.jpg",
     image3: "/sss_images/past_events/Kirtan3.jpg",
-    image4: "/sss_images/past_events/Kirtan4.jpg",
+    image4: "/sss_images/past_events/Kirtan4.png",
   },
   {
     pastEventName: "Ganesh Chaturthi - September 2024",
     caption:
       "We celebrated Ganesh Chaturthi as our club’s very first event, marking an auspicious beginning filled with devotion and joy. The celebration brought students together to honor Lord Ganesha and seek his blessings for wisdom, prosperity, and new beginnings.",
     image1: "/sss_images/past_events/GaneshChaturthi1.JPG",
-    image2: "/sss_images/past_events/GaneshChaturthi2.jpg",
+    image2: "/sss_images/past_events/GaneshChaturthi2.png",
     image3: "/sss_images/past_events/GaneshChaturthi3.jpg",
     image4: "/sss_images/past_events/GaneshChaturthi4.JPG",
   },
@@ -21,10 +21,10 @@ const pastevents = [
     pastEventName: "Navratri & Mahalaya - October 2024",
     caption:
       "Our club celebrated Navratri and Mahalaya by honoring both the vibrant cultural traditions of Navratri and the spiritual significance of Mahalaya, which marks the beginning of Devi Paksha and the arrival of Goddess Durga. The event showcased diverse practices of Navratri, while also including Garba to bring students together in devotion, celebration, and cultural unity.",
-    image1: "/sss_images/past_events/Navratri1.jpg",
-    image2: "/sss_images/past_events/Navratri2.jpg",
+    image1: "/sss_images/past_events/Navratri1.png",
+    image2: "/sss_images/past_events/Navratri2.png",
     image3: "/sss_images/past_events/Navratri3.JPG",
-    image4: "/sss_images/past_events/Navratri4.jpg",
+    image4: "/sss_images/past_events/Navratri4.png",
   },
   {
     pastEventName: "Diwali & Kali Puja - November 2024",
@@ -73,7 +73,7 @@ const pastevents = [
     pastEventName: "Maha Shivratri - February 2025",
     caption:
       "We celebrated Maha Shivratri to honor Lord Shiva, the embodiment of meditation and transformation. The event reminded students of the importance of inner strength and spiritual growth.",
-    image1: "/sss_images/past_events/ShivRatri1.jpg",
+    image1: "/sss_images/past_events/ShivRatri1.png",
     image2: "/sss_images/past_events/ShivRatri2.jpg",
     image3: "/sss_images/past_events/ShivRatri3.jpg",
     image4: "/sss_images/past_events/ShivRatri4.jpg",
@@ -83,8 +83,8 @@ const pastevents = [
     caption:
       "We celebrated Holi, the festival of colors, with joy, laughter, and togetherness. The vibrant event symbolized love, unity, and the triumph of good over evil.",
     image1: "/sss_images/past_events/Holi1.jpg",
-    image2: "/sss_images/past_events/Holi2.jpg",
-    image3: "/sss_images/past_events/Holi3.jpg",
+    image2: "/sss_images/past_events/Holi2.png",
+    image3: "/sss_images/past_events/Holi3.png",
     image4: "/sss_images/past_events/Holi4.jpg",
   },
   {
@@ -119,7 +119,7 @@ const pastevents = [
     caption:
       "We celebrated our official registration under the Students’ Union (SU) with a visit to ISKCON Calgary. The trip was filled with gratitude, devotion, and excitement for the journey ahead.",
     image1: "/sss_images/past_events/TempleVisitTwo1.jpg",
-    image2: "/sss_images/past_events/TempleVisitTwo2.jpg",
+    image2: "/sss_images/past_events/TempleVisitTwo2.png",
   },
   {
     pastEventName: "Kirtan by Peace Bridge - August 2025",
