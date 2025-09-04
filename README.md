@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Overview
+This is the official website of Sanatan Students' Society at the University of Calgary. The website serves a purpose to provide information and updates regarding our events, initiatives, and opportunities to be involved with the club.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features
+- Interactive listing of upcoming and past events
+- Volunteer opportunities
+- Photos and community highlights
+- Responsive design that is compatible with devices such as phones as small as 320px, ranging all the way up until 8k ultra wide displays (7680px+)
 
-## Available Scripts
+# Tech Stack
+- React.js: frontend framework
+- JavaScript: core language
+- CSS: styling
+- GitHub Pages: hosting environment
 
-In the project directory, you can run:
+# Project Structure
+website/
+├── public/          # Static assets (images, icons, etc.)
+├── src/             # Main source code
+│   ├── components/  # Reusable UI components
+│   ├── data/        # Event and volunteer info (JS files)
+│   ├── App.js       # Root React component
+│   └── index.js     # Entry point
 
-### `npm start`
+# Setup and Development
+1. Clone the repo using the following commands:
+    git clone https://github.com/shivanshiv/Sanatan-Students-Society-Website.git
+    cd Sanatan-Students-Society-Website
+2. Install the dependencies:
+    npm install
+3. Start local development server:
+    npm start
+4. Build for production:
+    npm run build
+5. Deploy to Github Pages:
+    npm run deploy
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Live Website
+https://sanatanstudentssocietyucalgary.ca/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Updating Website Files
+Run the following commands in order to update files on the website:
+cd website              # Or whichever directory you desire to use
+git add .
+git commit -m "Update website content"
+git push origin main
+npm run deploy
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
