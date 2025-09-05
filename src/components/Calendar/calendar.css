@@ -100,26 +100,70 @@
   border-radius: 50%;
 }
 
+/* Ensure event-info-box scales properly */
+.event-info-box {
+  width: 100%;
+  max-width: clamp(16rem, 95vw, 37.5rem);
+  margin: clamp(0.5rem, 2vw, 1rem) auto;
+  padding: clamp(0.5rem, 1.5vw, 1rem);
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Optimize event table for mobile */
 .event-table {
   width: 100%;
-  border-collapse: collapse;
-  margin-top: clamp(0.3125rem, 1vw, 0.625rem);
+  table-layout: auto;
 }
 
+/* Adjust table cells for better mobile display */
 .event-table td {
-  padding: clamp(0.375rem, 1vw, 0.75rem) clamp(0.46875rem, 1.5vw, 0.9375rem);
-  border-bottom: clamp(0.03125rem, 0.0625vw, 0.0625rem) solid rgba(117, 31, 10, 0.1);
+  padding: clamp(0.25rem, 0.8vw, 0.5rem) clamp(0.3rem, 1vw, 0.6rem);
+  font-size: clamp(0.7rem, 1.8vw, 0.9rem);
+  line-height: 1.4;
   vertical-align: top;
+  border-bottom: clamp(0.03125rem, 0.0625vw, 0.0625rem) solid rgba(117, 31, 10, 0.1);
 }
 
-.event-table tr:last-child td {
-  border-bottom: none;
+/* Ensure event labels don't take too much space */
+.event-label {
+  font-size: clamp(0.7rem, 1.8vw, 0.9rem);
+  white-space: normal;
+  padding-right: clamp(0.2rem, 0.8vw, 0.4rem);
+  width: auto;
 }
 
+/* Enhanced event values for better wrapping */
 .event-value {
-  color: #5a1708;
-  line-height: 1.5;
-  padding-left: clamp(0.625rem, 2vw, 1.25rem);
+  font-size: clamp(0.7rem, 1.8vw, 0.9rem);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  padding-left: clamp(0.3rem, 1vw, 0.6rem);
+  max-height: none; /* Remove any implicit height constraints */
+  overflow-y: auto; /* Allow scrolling if content is very long */
+}
+
+/* Media query for very small screens (e.g., < 400px) */
+@media screen and (max-width: 400px) {
+  .event-table td {
+    display: block;
+    width: 100%;
+    padding: clamp(0.2rem, 0.8vw, 0.4rem);
+    border-bottom: none;
+  }
+
+  .event-label {
+    border-right: none;
+    padding-bottom: 0;
+  }
+
+  .event-value {
+    padding-left: 0;
+    margin-bottom: clamp(0.3rem, 1vw, 0.6rem);
+    max-height: none; /* Ensure no height limit */
+    overflow-y: auto; /* Scroll if needed */
+  }
 }
 
 .event-table tr:nth-child(even) {
