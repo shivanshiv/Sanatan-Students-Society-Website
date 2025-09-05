@@ -13,7 +13,7 @@ const events = [
     },
     {
         eventName: "Ganesh Chaturthi - Sanatan Students Society (SSS)",
-        date: "September 7, 2025",
+        date: "September 6, 2025",
         time: "6:00pm to 10:00pm",
         location: "Vitruvian Space, Dining Centre Firmitas A & B (DC12A & DC14), University of Calgary",
         description: "Ganesh Chaturthi is a Hindu festival celebrating the birth of Lord Ganesha, the God of wisdom and prosperity. We will celebrate it by doing Pooja, Kirtan, Aarti, Performances, Actvitities and Prasadam.",
