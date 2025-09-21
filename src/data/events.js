@@ -25,7 +25,7 @@ const events = [
     {
         eventName: "Biweekly Kirtan",
         startDate: "September 22, 2025",
-        endDate: "December 22, 2025",
+        endDate: "December 1, 2025",
         dayOfWeek: "Monday",
         time: "6:00pm to 7:00pm",
         location: "Venustas DC12, Dining Centre, University of Calgary",

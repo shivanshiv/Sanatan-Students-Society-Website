@@ -1,12 +1,15 @@
 BEGIN:VCALENDAR
 VERSION:2.0
+PRODID:-//Sanatan Students Society//Biweekly Kirtan//EN
 CALSCALE:GREGORIAN
+METHOD:PUBLISH
 BEGIN:VEVENT
+UID:biweeklyKirtan@ucalgary.ca
 SUMMARY:Biweekly Kirtan
-DTSTART:20250922T180000
-DTEND:20250922T190000
-RRULE:FREQ=WEEKLY;INTERVAL=2;UNTIL=20251222T235959
+DESCRIPTION:Join us every other Monday for singing Bhajans, spiritual uplifting, and religious discussions.
+DTSTART;TZID=America/Edmonton:20250922T180000
+DTEND;TZID=America/Edmonton:20250922T190000
 LOCATION:Venustas DC12, Dining Centre, University of Calgary
-DESCRIPTION:Join us every Monday for weekly satsang and community gathering.
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=MO;UNTIL=20251201T235959Z
 END:VEVENT
 END:VCALENDAR
