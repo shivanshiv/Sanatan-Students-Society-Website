@@ -4,24 +4,69 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import eventsData from "../../data/events.js";
 
-const parseEventDates = (events) => {
-  return events.map(event => {
-    const dateMatch = event.date.match(/(\w+)\s+(\d+),\s+(\d{4})/);
-    if (dateMatch) {
-      const [, monthName, day, year] = dateMatch;
-      const monthNames = {
-        'January': 0, 'February': 1, 'March': 2, 'April': 3, 'May': 4, 'June': 5,
-        'July': 6, 'August': 7, 'September': 8, 'October': 9, 'November': 10, 'December': 11
-      };
-      const month = monthNames[monthName];
-      return {
-        ...event,
-        dateObj: new Date(parseInt(year), month, parseInt(day))
-      };
-    }
-    return event;
-  });
+const dayOfWeekMap = {
+  'Sunday': 0,
+  'Monday': 1,
+  'Tuesday': 2,
+  'Wednesday': 3,
+  'Thursday': 4,
+  'Friday': 5,
+  'Saturday': 6
 };
+
+const parseEventDates = (events) => {
+  const expandedEvents = [];
+
+  events.forEach(event => {
+
+    if (event.date) {
+      const dateMatch = event.date.match(/(\w+)\s+(\d+),\s+(\d{4})/);
+      if (dateMatch) {
+        const [, monthName, day, year] = dateMatch;
+        const monthNames = {
+          'January': 0, 'February': 1, 'March': 2, 'April': 3, 'May': 4, 'June': 5,
+          'July': 6, 'August': 7, 'September': 8, 'October': 9, 'November': 10, 'December': 11
+        };
+        const month = monthNames[monthName];
+
+        expandedEvents.push({
+          ...event,
+          dateObj: new Date(parseInt(year), month, parseInt(day)),
+          date: `${monthName} ${day}, ${year}` 
+        });
+      }
+    }
+
+    else if (event.recurring && event.startDate && event.endDate && event.dayOfWeek) {
+      const start = new Date(event.startDate);
+      const end = new Date(event.endDate);
+      const targetDay = dayOfWeekMap[event.dayOfWeek];
+
+      let current = new Date(start);
+      while (current.getDay() !== targetDay) {
+        current.setDate(current.getDate() + 1);
+      }
+
+      const step = (event.interval || 1) * 7;
+      while (current <= end) {
+        const monthName = current.toLocaleString('default', { month: 'long' });
+        const day = current.getDate();
+        const year = current.getFullYear();
+
+        expandedEvents.push({
+          ...event,
+          dateObj: new Date(current),
+          date: `${monthName} ${day}, ${year}` 
+        });
+
+        current.setDate(current.getDate() + step);
+      }
+    }
+  });
+
+  return expandedEvents;
+};
+
 
 const events = parseEventDates(eventsData);
 
@@ -47,7 +92,7 @@ const Calendar = () => {
     "July", "August", "September", "October", "November", "December"
   ];
 
-  // Function to check if a date has events
+
   const getEventsForDate = (day, month, year) => {
     return events.filter(event => {
       return event.dateObj.getDate() === day && event.dateObj.getMonth() === month && event.dateObj.getFullYear() === year;
@@ -142,22 +187,23 @@ const Calendar = () => {
   };
 
   const renderRegistrationWithLinks = (registrationText) => {
-    if (!registrationText || selectedEvent.isNoEvent) {
-      return selectedEvent.isNoEvent ? "N/A" : "";
+
+    if (!registrationText) {
+      return "N/A";
     }
-    
+
     const urlRegex = /(https?:\/\/[^\s]+)/g;
     const parts = registrationText.split(urlRegex);
-    
+
     return parts.map((part, index) => {
       if (urlRegex.test(part)) {
         return (
           <a 
-            key={index} 
-            href={part} 
-            target="_blank" 
+            key={index}
+            href={part}
+            target="_blank"
             rel="noopener noreferrer"
-            style={{ color: 'blue', textDecoration: 'underline' }}
+            style={{ color: "blue", textDecoration: "underline" }}
           >
             {part}
           </a>
@@ -166,6 +212,8 @@ const Calendar = () => {
       return part;
     });
   };
+
+
 
   return (
     <main className="calendar-main">

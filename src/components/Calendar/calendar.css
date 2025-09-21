@@ -302,3 +302,8 @@
   border: clamp(0.03125rem, 0.0625vw, 0.0625rem) solid rgba(103, 91, 73, 0.8);
   background-color: #ffd699;
 }
+
+.calendar-date.has-event.calendar-date-selected {
+  background-color: #ffd699 !important;
+  border: clamp(0.03125rem, 0.0625vw, 0.0625rem) 
+}
