@@ -31,6 +31,7 @@ const Header = () => {
         <Link to="/about" onClick={closeMenu}>About Us</Link>
         <Link to="/contact" onClick={closeMenu}>Contact Us</Link>
         <Link to='/pastevents' onClick={closeMenu}>Past Events</Link>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeL2xxK6ZpGSOrkgd-WCAgAvSUNGWditbfuxdSnivl_t-72WQ/viewform?usp=header" onClick={closeMenu}>Scholarship Application</a>
         <Link to='/volunteering' onClick={closeMenu}>Volunteering Opportunities</Link>
         <Link to='/hiring' onClick={closeMenu}>Executive Applications</Link>
         <a href="https://forms.gle/gWW8i3982g7FELox8" onClick={closeMenu}>Sign Up</a>
