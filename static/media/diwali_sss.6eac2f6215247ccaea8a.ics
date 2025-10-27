@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ChatGPT//DiwaliEvent//EN
+BEGIN:VEVENT
+UID:20251102T180000@chatgpt
+DTSTAMP:20251027T000000
+DTSTART;TZID=America/Edmonton:20251102T180000
+DTEND;TZID=America/Edmonton:20251102T223000
+SUMMARY:Diwali (SSS)
+LOCATION:Vitruvian Space, Dining Centre Firmitas A & B (DC12A & DC14), University of Calgary
+DESCRIPTION:Join us in celebrating Diwali, the festival of lights that symbolizes the triumph of good over evil and light over darkness, with an evening of pooja, kirtan, aarti, and vibrant performances that bring our community together in joy and devotion.
+END:VEVENT
+END:VCALENDAR

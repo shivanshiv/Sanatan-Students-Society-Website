@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.843d8f30.css",
-    "main.js": "/static/js/main.226f64d6.js",
+    "main.js": "/static/js/main.af285076.js",
     "static/js/453.dff87da4.chunk.js": "/static/js/453.dff87da4.chunk.js",
     "index.html": "/index.html",
     "static/media/ganesh_chaturthi_sss_isc.ics": "/static/media/ganesh_chaturthi_sss_isc.1aa6c46b3ff204e70dd0.ics",
+    "static/media/diwali_sss.ics": "/static/media/diwali_sss.6eac2f6215247ccaea8a.ics",
     "static/media/navratri_durgaPooja.ics": "/static/media/navratri_durgaPooja.cb6bbcbc8f5d2a1f6109.ics",
     "static/media/ganesh_chaturthi_sss.ics": "/static/media/ganesh_chaturthi_sss.97a2e2e44106c0a0ccfe.ics",
     "static/media/biweeklyKirtans.ics": "/static/media/biweeklyKirtans.4b7e5e312b63dfead613.ics",
     "main.843d8f30.css.map": "/static/css/main.843d8f30.css.map",
-    "main.226f64d6.js.map": "/static/js/main.226f64d6.js.map",
+    "main.af285076.js.map": "/static/js/main.af285076.js.map",
     "453.dff87da4.chunk.js.map": "/static/js/453.dff87da4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.843d8f30.css",
-    "static/js/main.226f64d6.js"
+    "static/js/main.af285076.js"
   ]
 }
