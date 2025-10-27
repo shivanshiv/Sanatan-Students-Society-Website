@@ -2,6 +2,7 @@ import ganeshChaturthi_SSS_ISC from '../data/ganesh_chaturthi_sss_isc.ics';
 import ganeshChaturthi_SSS from '../data/ganesh_chaturthi_sss.ics';
 import biweeklyKirtans from '../data/biweeklyKirtans.ics';
 import navratriDurgaPuja from '../data/navratri_durgaPooja.ics';
+import diwali_sss from '../data/diwali_sss.ics';
 
 const events = [
     {
@@ -42,6 +43,14 @@ const events = [
         description: "Navratri and Durga is a Hindu festival celebrating the victory of good over evil. We will celebrate it by doing Pooja, Kirtan, Aarti, Performances, Dance, Music and Prasadam.",
         registration: "Free entry, will post the registration link soon :)",
         icsFile: navratriDurgaPuja
+    },
+    {
+        eventName: "Diwali (SSS)",
+        date: "November 2, 2025",
+        time: "6:00pm to 10:30pm",
+        location: "Vitruvian Space, Dining Centre Firmitas A & B (DC12A & DC14), University of Calgary",
+        description: "Join us in celebrating Diwali, the festival of lights that symbolizes the triumph of good over evil and light over darkness, with an evening of pooja, kirtan, aarti, and vibrant performances that bring our community together in joy and devotion.",
+        icsFile: diwali_sss
     }
 
 ];
