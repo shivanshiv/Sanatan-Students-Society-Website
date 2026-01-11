@@ -8,6 +8,7 @@ import Calendar from './components/Calendar/Calendar';
 import HiringExecutiveMembers from './components/ExecutiveApplications/HiringExecutiveMembers'
 import PreviousEvents from './components/PastEvents/PreviousEvents';
 import VolunteeringOpportunities from './components/VolunteeringOpportunities/VolunteeringOpportunities';
+import Bursary from './components/Bursary/Bursary';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path='/hiring' element={<HiringExecutiveMembers/>} />
           <Route path='/pastevents' element={<PreviousEvents/>} />
           <Route path='/volunteering' element={<VolunteeringOpportunities/>} />
+          <Route path='/bursary' element={<Bursary/>} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -20,7 +20,7 @@ const ContactUs = () => {
             </p>
 
             <div className="contact-links-container">
-                <a href="mailto:info.sanatanstudentssociety@gmail.com" className="contact-item gmail">
+                <a href="mailto:info.sanatanstudentssociety@gmail.com" target="_blank" rel="noopener noreferrer" className="contact-item gmail">
                     <img src="/sss_images/gmail.png" alt="Gmail" />
                     <span>Gmail</span>
                 </a>
