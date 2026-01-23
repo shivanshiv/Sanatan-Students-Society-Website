@@ -3,6 +3,7 @@ import ganeshChaturthi_SSS from '../data/ganesh_chaturthi_sss.ics';
 import biweeklyKirtans from '../data/biweeklyKirtans.ics';
 import navratriDurgaPuja from '../data/navratri_durgaPooja.ics';
 import diwali_sss from '../data/diwali_sss.ics';
+import saraswati_puja from '../data/saraswati_puja.ics';
 
 const events = [
     {
@@ -51,6 +52,14 @@ const events = [
         location: "Vitruvian Space, Dining Centre Firmitas A & B (DC12A & DC14), University of Calgary",
         description: "Join us in celebrating Diwali, the festival of lights that symbolizes the triumph of good over evil and light over darkness, with an evening of pooja, kirtan, aarti, and vibrant performances that bring our community together in joy and devotion.",
         icsFile: diwali_sss
+    },
+    {
+        eventName: "Saraswati Puja",
+        date: "January 27, 2026",
+        time: "9:30am to 9:00pm",
+        location: "9:30am - 4:00pm: MacEwan Student Centre South Courtyard, 6:00pm - 9:000pm: Vitruvian Space, Dining Centre Firmitas A & B (DC12A & DC14), University of Calgary",
+        description: "Join us in celebrating Saraswati Puja for the second time on campus! Join us in a festival of worshipping Goddess Saraswati, along with showcasing art, dance, music and culture.",
+        icsFile: saraswati_puja
     }
 
 ];
