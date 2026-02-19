@@ -23,16 +23,14 @@ const VolunteeringOpportunities = () => {
                       <span className="info-label">Date:</span>
                       <span className="info-value">{opportunity.date}</span>
                     </div>
-                    
-                    {/* <div className="info-item">
+                    <div className="info-item">
                       <span className="info-label">Location:</span>
                       <span className="info-value">{opportunity.roomSpace}</span>
                     </div>
                     <div className="info-item">
                       <span className="info-label">Building:</span>
                       <span className="info-value">{opportunity.building}</span>
-                    </div> */}
-                    
+                    </div>                 
                     <div className="info-item">
                       <span className="info-label">Setup Time:</span>
                       <span className="info-value">{opportunity.setup}</span>

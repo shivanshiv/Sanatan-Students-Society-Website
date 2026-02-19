@@ -4,6 +4,7 @@ import biweeklyKirtans from '../data/biweeklyKirtans.ics';
 import navratriDurgaPuja from '../data/navratri_durgaPooja.ics';
 import diwali_sss from '../data/diwali_sss.ics';
 import saraswati_puja from '../data/saraswati_puja.ics';
+import mahaShivratri from '../data/maha_shivratri_2026.ics';
 
 const events = [
     {
@@ -60,6 +61,14 @@ const events = [
         location: "9:30am - 4:00pm: MacEwan Student Centre South Courtyard, 6:00pm - 9:000pm: Vitruvian Space, Dining Centre Firmitas A & B (DC12A & DC14), University of Calgary",
         description: "Join us in celebrating Saraswati Puja for the second time on campus! Join us in a festival of worshipping Goddess Saraswati, along with showcasing art, dance, music and culture.",
         icsFile: saraswati_puja
+    },
+    {
+        eventName: "Maha Shivratri",
+        date: "February 19, 2026",
+        time: "5:30pm to 7:30pm",
+        location: "Vitruvian Space, Dining Centre Firmitas A & B (DC12A & DC14), University of Calgary",
+        description: "Join us in celebrating Maha Shivratri with a night of pooja, kirtan, aarti, meditation and vibrant performances that bring our community together in devotion and celebration.",
+        icsFile: mahaShivratri
     }
 
 ];
