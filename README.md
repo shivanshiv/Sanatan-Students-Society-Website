@@ -38,7 +38,7 @@ This is the official website of Sanatan Students' Society at the University of C
     npm run deploy
 
 # Live Website
-https://sanatanstudentssocietyucalgary.ca/
+https://sanatanstudentssociety.ca/
 
 # Updating Website Files
 Run the following commands in order to update files on the website:
