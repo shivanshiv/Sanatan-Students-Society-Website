@@ -1,10 +1,13 @@
-import ganeshChaturthi_SSS_ISC from '../data/ganesh_chaturthi_sss_isc.ics';
-import ganeshChaturthi_SSS from '../data/ganesh_chaturthi_sss.ics';
-import biweeklyKirtans from '../data/biweeklyKirtans.ics';
-import navratriDurgaPuja from '../data/navratri_durgaPooja.ics';
-import diwali_sss from '../data/diwali_sss.ics';
-import saraswati_puja from '../data/saraswati_puja.ics';
+import ganeshChaturthi_SSS_ISC from '../data/ganesh_chaturthi_sss_isc_2025.ics';
+import ganeshChaturthi_SSS from '../data/ganesh_chaturthi_sss_2025.ics';
+import biweeklyKirtans from '../data/biweeklyKirtans_2025.ics';
+import navratriDurgaPuja from '../data/navratri_durga_puja_2025.ics';
+import diwali_sss from '../data/diwali_sss_2025.ics';
+import saraswati_puja from '../data/saraswati_puja_2026.ics';
 import mahaShivratri from '../data/maha_shivratri_2026.ics';
+import krishnaJanmashtami_2026 from '../data/krishna_janmashtami_2026.ics';
+import ganeshChaturthi_2026 from '../data/ganesh_chaturthi_2026.ics';
+import navratriDurgaPuja_2026 from '../data/navratri_durga_puja_2026.ics';
 
 const events = [
     {
@@ -69,6 +72,31 @@ const events = [
         location: "Vitruvian Space, Dining Centre Firmitas A & B (DC12A & DC14), University of Calgary",
         description: "Join us in celebrating Maha Shivratri with a night of pooja, kirtan, aarti, meditation and vibrant performances that bring our community together in devotion and celebration.",
         icsFile: mahaShivratri
+    },
+    {
+        eventName: "Krishna Janmashtami Celebration & 2nd Anniversary of Sanatan Students' Society (SSS)",
+        date: "Sunday, September 6, 2026",
+        time: "6:00 pm – 10:00 pm",
+        location: "Falconridge/Castleridge Community Association",
+        description: "Join Sanatan Students’ Society for our Krishna Janmashtami Celebration & 2nd Anniversary! Enjoy Puja, Kirtan, Aarati, cultural performances, activities, stalls, and free Prasadam. Free entry and everyone is welcome!",
+        icsFile: krishnaJanmashtami_2026
+    },
+    {
+        eventName: "Ganesh Chaturthi",
+        date: "Wednesday, September 16, 2026",
+        time: "7:15 pm – 9:30 pm",
+        location: "Vitruvian Space, Dining Centre Firmitas A & B (DC12A & DC14), University of Calgary",
+        description: "Join us in celebrating Ganesh Chaturthi, a festival honoring Lord Ganesha, the remover of obstacles and the deity of wisdom and prosperity. The event will feature Pooja, Kirtan, Aarati, cultural performances, activities, and Prasadam.",
+        icsFile: ganeshChaturthi_2026
+    },
+    {
+        eventName: "Navratri & Durga Puja",
+        date: "Monday, October 12, 2026",
+        time: "6:00 pm – 9:00 pm",
+        location: "Vitruvian Space, Dining Centre Firmitas A & B (DC12A & DC14), University of Calgary",
+        description: "Join us in celebrating Navratri and Durga Puja, a festival honoring Goddess Durga and the victory of good over evil. The event will feature Pooja, Kirtan, Aarati, cultural performances, activities, and Prasadam.",
+        registration: "https://www.eventbrite.com/e/navratri-durga-puja-with-sanatan-students-society-tickets-2002322242729",
+        icsFile: navratriDurgaPuja_2026
     }
 
 ];

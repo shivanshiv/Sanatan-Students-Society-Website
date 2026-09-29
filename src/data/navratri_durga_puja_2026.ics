@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sanatan Students Society//SSS Event//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:America/Edmonton
+BEGIN:VEVENT
+UID:navratri-durga-puja-2026@ssscalgary.ca
+DTSTAMP:20261012T000000Z
+DTSTART:20261013T000000Z
+DTEND:20261013T030000Z
+SUMMARY:Navratri & Durga Puja
+DESCRIPTION:Join us in celebrating Navratri and Durga Puja, a festival honoring Goddess Durga and the victory of good over evil. The event will feature Pooja, Kirtan, Aarati, cultural performances, activities, and Prasadam.
+LOCATION:Vitruvian Space, Dining Centre Firmitas A & B (DC12A & DC14), University of Calgary
+URL:https://www.eventbrite.com/e/navratri-durga-puja-with-sanatan-students-society-tickets-2002322242729
+END:VEVENT
+END:VCALENDAR
