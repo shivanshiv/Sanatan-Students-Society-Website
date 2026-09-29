@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sanatan Students Society//SSS Event//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:America/Edmonton
+BEGIN:VEVENT
+UID:ganesh-chaturthi-2026@ssscalgary.ca
+DTSTAMP:20260929T000000Z
+DTSTART:20260917T011500Z
+DTEND:20260917T033000Z
+SUMMARY:Ganesh Chaturthi
+DESCRIPTION:Join us in celebrating Ganesh Chaturthi, a festival honoring Lord Ganesha, the remover of obstacles and the deity of wisdom and prosperity. The event will feature Pooja, Kirtan, Aarati, cultural performances, activities, and Prasadam.
+LOCATION:Vitruvian Space, Dining Centre Firmitas A & B (DC12A & DC14), University of Calgary
+END:VEVENT
+END:VCALENDAR

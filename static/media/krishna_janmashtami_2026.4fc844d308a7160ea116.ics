@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sanatan Students Society//SSS Event//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:America/Edmonton
+BEGIN:VEVENT
+UID:krishna-janmashtami-2026@ssscalgary.ca
+DTSTAMP:20260929T000000Z
+DTSTART:20260907T000000Z
+DTEND:20260907T040000Z
+SUMMARY:Krishna Janmashtami Celebration & 2nd Anniversary of SSS
+DESCRIPTION:Join Sanatan Students' Society for our Krishna Janmashtami Celebration & 2nd Anniversary! Enjoy Puja, Kirtan, Aarati, cultural performances, activities, stalls, and free Prasadam. Free entry and everyone is welcome!
+LOCATION:Falconridge/Castleridge Community Association
+END:VEVENT
+END:VCALENDAR
