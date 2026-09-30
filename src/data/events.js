@@ -8,6 +8,8 @@ import mahaShivratri from '../data/maha_shivratri_2026.ics';
 import krishnaJanmashtami_2026 from '../data/krishna_janmashtami_2026.ics';
 import ganeshChaturthi_2026 from '../data/ganesh_chaturthi_2026.ics';
 import navratriDurgaPuja_2026 from '../data/navratri_durga_puja_2026.ics';
+import ramNavami_SAIT_2026 from '../data/ram_navami_sait_2026.ics';
+import holiTemple_2026 from '../data/holi_temple_2026.ics';
 
 const events = [
     {
@@ -72,6 +74,22 @@ const events = [
         location: "Vitruvian Space, Dining Centre Firmitas A & B (DC12A & DC14), University of Calgary",
         description: "Join us in celebrating Maha Shivratri with a night of pooja, kirtan, aarti, meditation and vibrant performances that bring our community together in devotion and celebration.",
         icsFile: mahaShivratri
+    },
+    {
+        eventName: "Ram Navami at SAIT",
+        date: "Wednesday, April 1, 2026",
+        time: "5:30pm to 9:30pm",
+        location: "CA121 East Aldred Event Space, SAIT",
+        description: "Join us for a spiritually uplifting evening and our first event at SAIT. We invite students and community members to come together for a meaningful celebration of Ram Navami.",
+        icsFile: ramNavami_SAIT_2026
+    },
+    {
+        eventName: "SSS Holi Celebration at the Temple",
+        date: "Monday, March 9, 2026",
+        time: "5:30pm to 8:30pm",
+        location: "Hindu Society of Calgary, 2225 24 Ave NE, Calgary, AB T2E 8M2",
+        description: "This year, Sanatan Students' Society is celebrating Holi at the Hindu Society of Calgary Temple. Join us for an evening devoted to devotion, music, color, and community. We invite students and community members to come together in celebration of joy, unity, and the vibrant spirit of Holi.",
+        icsFile: holiTemple_2026
     },
     {
         eventName: "Krishna Janmashtami Celebration & 2nd Anniversary of Sanatan Students' Society (SSS)",
