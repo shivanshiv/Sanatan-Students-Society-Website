@@ -1,25 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.c7598144.css",
-    "main.js": "/static/js/main.231bbde1.js",
+    "main.js": "/static/js/main.bbd03691.js",
     "static/js/453.dff87da4.chunk.js": "/static/js/453.dff87da4.chunk.js",
     "index.html": "/index.html",
     "static/media/navratri_durga_puja_2026.ics": "/static/media/navratri_durga_puja_2026.3e2d1fc7f1565e8e6e92.ics",
+    "static/media/holi_temple_2026.ics": "/static/media/holi_temple_2026.35b4e251a9b720a49ff7.ics",
     "static/media/saraswati_puja_2026.ics": "/static/media/saraswati_puja_2026.04f1cdca453be246d03f.ics",
     "static/media/ganesh_chaturthi_2026.ics": "/static/media/ganesh_chaturthi_2026.79a2225257e8f7375863.ics",
     "static/media/krishna_janmashtami_2026.ics": "/static/media/krishna_janmashtami_2026.4fc844d308a7160ea116.ics",
     "static/media/ganesh_chaturthi_sss_isc_2025.ics": "/static/media/ganesh_chaturthi_sss_isc_2025.a988d37999018a06b113.ics",
     "static/media/diwali_sss_2025.ics": "/static/media/diwali_sss_2025.6eac2f6215247ccaea8a.ics",
     "static/media/navratri_durga_puja_2025.ics": "/static/media/navratri_durga_puja_2025.cb6bbcbc8f5d2a1f6109.ics",
+    "static/media/ram_navami_sait_2026.ics": "/static/media/ram_navami_sait_2026.bfc5678c88eafef534e2.ics",
     "static/media/ganesh_chaturthi_sss_2025.ics": "/static/media/ganesh_chaturthi_sss_2025.3887c1e72db8546d71a6.ics",
     "static/media/biweeklyKirtans_2025.ics": "/static/media/biweeklyKirtans_2025.a88122a7131830629bdd.ics",
     "static/media/maha_shivratri_2026.ics": "/static/media/maha_shivratri_2026.684bb5a69e155a2628ce.ics",
     "main.c7598144.css.map": "/static/css/main.c7598144.css.map",
-    "main.231bbde1.js.map": "/static/js/main.231bbde1.js.map",
+    "main.bbd03691.js.map": "/static/js/main.bbd03691.js.map",
     "453.dff87da4.chunk.js.map": "/static/js/453.dff87da4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7598144.css",
-    "static/js/main.231bbde1.js"
+    "static/js/main.bbd03691.js"
   ]
 }

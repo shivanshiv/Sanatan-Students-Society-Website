@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sanatan Students Society//Ram Navami at SAIT//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ram-navami-sait-2026@ssscalgary.ca
+DTSTAMP:20260929T000000Z
+DTSTART;TZID=America/Edmonton:20260401T173000
+DTEND;TZID=America/Edmonton:20260401T213000
+SUMMARY:Ram Navami at SAIT
+DESCRIPTION:Join us for a spiritually uplifting evening and our first event at SAIT. We invite students and community members to come together for a meaningful celebration of Ram Navami.
+LOCATION:CA121 East Aldred Event Space, SAIT
+END:VEVENT
+END:VCALENDAR

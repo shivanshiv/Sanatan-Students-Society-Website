@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sanatan Students Society//SSS Holi Celebration at the Temple//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:holi-temple-2026@ssscalgary.ca
+DTSTAMP:20260929T000000Z
+DTSTART;TZID=America/Edmonton:20260309T173000
+DTEND;TZID=America/Edmonton:20260309T203000
+SUMMARY:SSS Holi Celebration at the Temple
+DESCRIPTION:This year, Sanatan Students' Society is celebrating Holi at the Hindu Society of Calgary Temple. Join us for an evening devoted to devotion, music, color, and community. We invite students and community members to come together in celebration of joy, unity, and the vibrant spirit of Holi.
+LOCATION:Hindu Society of Calgary\, 2225 24 Ave NE\, Calgary\, AB T2E 8M2
+END:VEVENT
+END:VCALENDAR
