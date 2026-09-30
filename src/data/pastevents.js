@@ -130,6 +130,78 @@ const pastevents = [
     image3: "/sss_images/past_events/PeaceBridge3.jpg",
     image4: "/sss_images/past_events/PeaceBridge4.jpg",
   },
+  {
+    pastEventName: "Ganesh Chaturthi - September 2025",
+    caption:
+      "We celebrated Ganesh Chaturthi with devotion and joy, honoring Lord Ganesha and seeking his blessings. We also celebrated our 1st anniversary of the club, along with our club registration and initial launch of our official website.",
+    image1: "/sss_images/past_events/GaneshChaturthi2025_1.png",
+    image2: "/sss_images/past_events/GaneshChaturthi2025_2.png",
+    image3: "/sss_images/past_events/GaneshChaturthi2025_3.png",
+    image4: "/sss_images/past_events/GaneshChaturthi2025_4.png",
+  },
+  {
+    pastEventName: "Navratri & Durga Puja - October 2025",
+    caption:
+      "We celebrated Navratri and Durga Puja with devotion, music, and cultural performances. The event honored Goddess Durga and we wrapped it up by doing Garba.",
+    image1: "/sss_images/past_events/NavratriDurgaPuja2025_1.png",
+    image2: "/sss_images/past_events/NavratriDurgaPuja2025_2.png",
+    image3: "/sss_images/past_events/NavratriDurgaPuja2025_3.png",
+    image4: "/sss_images/past_events/NavratriDurgaPuja2025_4.png",
+  },
+  {
+    pastEventName: "Diwali and Kali Puja - November 2025",
+    caption:
+      "We celebrated Diwali, the festival of lights, with devotion, music, and cultural performances. The event honored goddess Kali, and focussed on the triumph of good over evil.",
+    image1: "/sss_images/past_events/Diwali2025_1.png",
+    image2: "/sss_images/past_events/Diwali2025_2.png",
+    image3: "/sss_images/past_events/Diwali2025_3.png",
+    image4: "/sss_images/past_events/Diwali2025_4.png",
+  },
+  {
+    pastEventName: "Saraswati Puja - January 2026",
+    caption:
+      "We celebrated Saraswati Puja with devotion, music, and cultural performances. The event honored goddess Saraswati, and focussed on the triumph of knowledge.",
+    image1: "/sss_images/past_events/SaraswatiPuja2026_1.png",
+    image2: "/sss_images/past_events/SaraswatiPuja2026_2.png",
+    image3: "/sss_images/past_events/SaraswatiPuja2026_3.png",
+    image4: "/sss_images/past_events/SaraswatiPuja2026_4.png",
+  },
+  {
+    pastEventName: "Maha Shivratri - February 2026",
+    caption:
+      "We celebrated Maha Shivratri with devotion, music, and cultural performances honoring lord Shiva.",
+    image1: "/sss_images/past_events/MahaShivratri2026_1.png",
+    image2: "/sss_images/past_events/MahaShivratri2026_2.png",
+    image3: "/sss_images/past_events/MahaShivratri2026_3.png",
+    image4: "/sss_images/past_events/MahaShivratri2026_4.png",
+  },
+  {
+    pastEventName: "Holi - March 2026",
+    caption:
+      "We celebrated Holi, the festival of colors, with joy, laughter, and togetherness. The vibrant event symbolized love, and unity.",
+    image1: "/sss_images/past_events/Holi2026_1.png",
+    image2: "/sss_images/past_events/Holi2026_2.png",
+    image3: "/sss_images/past_events/Holi2026_3.png",
+    image4: "/sss_images/past_events/Holi2026_4.png",
+  },
+  {
+    pastEventName: "Ram Navami - April 2026",
+    caption:
+      "We celebrated Ram Navami with devotion, music, and cultural performances honoring Lord Rama.",
+    image1: "/sss_images/past_events/RamNavami2026_1.png",
+    image2: "/sss_images/past_events/RamNavami2026_2.png",
+    image3: "/sss_images/past_events/RamNavami2026_3.png",
+    image4: "/sss_images/past_events/RamNavami2026_4.png",
+  },
+  {
+    pastEventName: "Janmashtami - August 2026",
+    caption:
+      "We celebrated Janmashtami, the birth of Lord Krishna, with devotion, music, and cultural performances.",
+    image1: "/sss_images/past_events/Janmashtami2026_1.png",
+    image2: "/sss_images/past_events/Janmashtami2026_2.png",
+    image3: "/sss_images/past_events/Janmashtami2026_3.png",
+    image4: "/sss_images/past_events/Janmashtami2026_4.png",
+  },
 ];
 
 export default pastevents;
