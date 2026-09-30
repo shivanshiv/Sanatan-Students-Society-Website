@@ -28,22 +28,22 @@ const PreviousEvents = () => {
                 <div className={gridClass}>
                   {event.image1 && (
                     <div className="image-cell">
-                      <img src={event.image1} alt={`${event.pastEventName} 1`} />
+                      <img src={event.image1} alt={`${event.pastEventName} 1`} loading="lazy" decoding="async" />
                     </div>
                   )}
                   {event.image2 && (
                     <div className="image-cell">
-                      <img src={event.image2} alt={`${event.pastEventName} 2`} />
+                      <img src={event.image2} alt={`${event.pastEventName} 2`} loading="lazy" decoding="async" />
                     </div>
                   )}
                   {event.image3 && (
                     <div className="image-cell">
-                      <img src={event.image3} alt={`${event.pastEventName} 3`} />
+                      <img src={event.image3} alt={`${event.pastEventName} 3`} loading="lazy" decoding="async" />
                     </div>
                   )}
                   {event.image4 && (
                     <div className="image-cell">
-                      <img src={event.image4} alt={`${event.pastEventName} 4`} />
+                      <img src={event.image4} alt={`${event.pastEventName} 4`} loading="lazy" decoding="async" />
                     </div>
                   )}
                 </div>
