@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c7598144.css",
-    "main.js": "/static/js/main.bbd03691.js",
+    "main.js": "/static/js/main.af9220d1.js",
     "static/js/453.dff87da4.chunk.js": "/static/js/453.dff87da4.chunk.js",
     "index.html": "/index.html",
     "static/media/navratri_durga_puja_2026.ics": "/static/media/navratri_durga_puja_2026.3e2d1fc7f1565e8e6e92.ics",
@@ -17,11 +17,11 @@
     "static/media/biweeklyKirtans_2025.ics": "/static/media/biweeklyKirtans_2025.a88122a7131830629bdd.ics",
     "static/media/maha_shivratri_2026.ics": "/static/media/maha_shivratri_2026.684bb5a69e155a2628ce.ics",
     "main.c7598144.css.map": "/static/css/main.c7598144.css.map",
-    "main.bbd03691.js.map": "/static/js/main.bbd03691.js.map",
+    "main.af9220d1.js.map": "/static/js/main.af9220d1.js.map",
     "453.dff87da4.chunk.js.map": "/static/js/453.dff87da4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7598144.css",
-    "static/js/main.bbd03691.js"
+    "static/js/main.af9220d1.js"
   ]
 }
